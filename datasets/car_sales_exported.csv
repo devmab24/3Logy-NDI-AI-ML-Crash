@@ -1,4 +1,4 @@
-﻿sale_id,sale_date,brand,model,year,price_usd,quantity_sold,dealership_city
+sale_id,sale_date,brand,model,year,price_usd,quantity_sold,dealership_city
 1,12/03/2024,Hyundai,Elantra,2018,$33024,2,Abuja
 2,04/08/2024,Hyundai,Elantra,2023,$50741,1,Ibadan
 3,04/11/2024,Toyota,Corolla,2018,$29328,2,Ibadan

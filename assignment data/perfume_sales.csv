@@ -1,0 +1,201 @@
+sale_id,sale_date,brand,model,year,price_usd,quantity_sold,store_city
+1,12/03/2024,Dior,J'adore,2021,$66193,2,Lagos
+2,13/08/2024,Calvin Klein,Escape,2022,$30244,7,Lagos
+3,20/09/2024,Gucci,Guilty,2023,$49598,1,Ibadan
+4,01/01/2024,Hugo Boss,The Scent,2024,$80922,4,Port Harcourt
+5,07/07/2024,YSL,Libre,2024,$45947,6,Abuja
+6,06/09/2024,Calvin Klein,Obsession,2024,$15152,2,Ibadan
+7,06/09/2024,Burberry,Brit,2020,$66815,6,Port Harcourt
+8,19/08/2024,Gucci,Bamboo,2023,$48650,3,Benin City
+9,12/06/2024,Giorgio Armani,Acqua di Gio,2021,$89937,9,Ibadan
+10,11/01/2024,Hugo Boss,The Scent,2020,$45680,7,Lagos
+11,04/09/2024,Chanel,No. 5,2023,$37329,8,Abuja
+12,28/02/2024,Burberry,Her,2024,$38009,6,Kano
+13,06/07/2024,Giorgio Armani,Acqua di Gio,2021,$40839,1,Ibadan
+14,03/08/2024,Prada,Luna Rossa,2022,$84396,9,Kaduna
+15,05/04/2024,Giorgio Armani,Acqua di Gio,2020,$34971,7,Ibadan
+16,20/05/2024,Calvin Klein,Escape,2020,$53624,9,Ibadan
+17,15/10/2024,Hugo Boss,Jour,2020,$76458,6,Enugu
+18,27/07/2024,Chanel,No. 5,2024,$50232,3,Kaduna
+19,02/10/2024,YSL,Mon Paris,2024,$58184,7,Kano
+20,21/08/2024,Calvin Klein,Euphoria,2024,$32910,10,Benin City
+21,29/09/2024,Hugo Boss,Boss Bottled,2020,$64023,8,Kaduna
+22,01/09/2024,YSL,L'Homme,2020,$54910,7,Benin City
+23,03/11/2024,Prada,Luna Rossa,2024,$59143,6,Enugu
+24,09/04/2024,Dior,Poison,2022,$34589,4,Lagos
+25,31/07/2024,Giorgio Armani,Stronger With You,2024,$48015,8,Kano
+26,16/12/2024,YSL,Black Opium,2021,$81072,5,Abuja
+27,27/10/2024,Dior,Sauvage,2020,$35679,8,Kaduna
+28,14/01/2024,Prada,L'Homme,2020,$64104,3,Benin City
+29,22/05/2024,Calvin Klein,Obsession,2021,$55840,1,Enugu
+30,09/06/2024,Giorgio Armani,Prive,2022,$51761,6,Lagos
+31,20/02/2024,Burberry,London,2021,$42662,8,Kaduna
+32,23/02/2024,Dior,Miss Dior,2022,$85945,9,Benin City
+33,03/03/2024,Versace,Dylan Blue,2020,$18106,8,Enugu
+34,01/01/2024,Hugo Boss,Alive,2024,$90905,8,Benin City
+35,06/08/2024,Gucci,Bamboo,2022,$68493,10,Lagos
+36,07/05/2024,Prada,Candy,2021,$26307,4,Benin City
+37,22/10/2024,Gucci,Flora,2022,$47599,6,Kaduna
+38,21/12/2024,Burberry,Her,2021,$81988,9,Kaduna
+39,01/08/2024,Dior,Sauvage,2022,$70044,3,Ibadan
+40,28/04/2024,Hugo Boss,Ma Vie,2022,$28797,8,Port Harcourt
+41,16/09/2024,Hugo Boss,Ma Vie,2024,$49312,9,Abuja
+42,09/05/2024,Giorgio Armani,Prive,2023,$77784,1,Kano
+43,16/06/2024,Chanel,No. 5,2024,$38997,3,Lagos
+44,22/07/2024,Dior,Fahrenheit,2021,$39310,4,Lagos
+45,14/07/2024,Hugo Boss,Jour,2024,$77791,4,Lagos
+46,02/04/2024,Burberry,Brit,2022,$32134,5,Abuja
+47,03/01/2024,Calvin Klein,Escape,2024,$16262,1,Abuja
+48,15/12/2024,Hugo Boss,Boss Bottled,2020,$52739,4,Benin City
+49,27/07/2024,Chanel,Bleu de Chanel,2022,$15323,3,Benin City
+50,15/07/2024,Giorgio Armani,Code,2020,$83466,10,Lagos
+51,23/11/2024,Versace,Crystal Noir,2023,$45475,10,Benin City
+52,15/08/2024,Chanel,Chance,2020,$56567,5,Abuja
+53,10/05/2024,Hugo Boss,Boss Bottled,2024,$68065,8,Port Harcourt
+54,06/10/2024,Dior,Sauvage,2020,$34457,4,Port Harcourt
+55,04/10/2024,Chanel,Allure,2021,$75793,3,Benin City
+56,08/02/2024,Hugo Boss,The Scent,2022,$64775,6,Kano
+57,24/08/2024,Prada,L'Homme,2022,$38134,8,Enugu
+58,19/12/2024,Chanel,Chance,2024,$88438,6,Lagos
+59,11/05/2024,YSL,Mon Paris,2021,$31403,2,Port Harcourt
+60,03/07/2024,Versace,Eros,2024,$55376,3,Benin City
+61,14/01/2024,Giorgio Armani,Stronger With You,2022,$61652,8,Abuja
+62,16/04/2024,Giorgio Armani,Stronger With You,2024,$42311,2,Ibadan
+63,15/10/2024,Dior,Miss Dior,2024,$65790,7,Port Harcourt
+64,22/07/2024,Chanel,No. 5,2020,$22816,2,Benin City
+65,04/06/2024,YSL,Opium,2021,$63248,4,Lagos
+66,20/09/2024,Chanel,Bleu de Chanel,2023,$37295,7,Enugu
+67,06/10/2024,Prada,Candy,2021,$28043,6,Abuja
+68,23/02/2024,Calvin Klein,Escape,2023,$71344,2,Lagos
+69,11/09/2024,Giorgio Armani,Si,2024,$34592,9,Ibadan
+70,01/07/2024,Dior,Fahrenheit,2024,$33863,1,Enugu
+71,06/03/2024,Prada,L'Homme,2022,$21962,2,Lagos
+72,23/04/2024,Versace,Crystal Noir,2023,$50712,8,Benin City
+73,02/11/2024,Chanel,Chance,2022,$17614,2,Abuja
+74,07/12/2024,Giorgio Armani,Prive,2021,$35443,8,Benin City
+75,15/09/2024,Chanel,Bleu de Chanel,2022,$24328,3,Kano
+76,31/12/2024,Versace,Bright Crystal,2023,$80029,5,Kaduna
+77,18/11/2024,Hugo Boss,Jour,2024,$58784,4,Benin City
+78,24/05/2024,Gucci,Flora,2020,$15353,1,Port Harcourt
+79,09/05/2024,Gucci,Guilty,2023,$60253,3,Ibadan
+80,06/04/2024,Calvin Klein,Eternity,2020,$66490,7,Enugu
+81,13/02/2024,YSL,Opium,2020,$26007,5,Port Harcourt
+82,04/03/2024,Versace,Eros,2022,$65595,10,Kaduna
+83,12/01/2024,Dior,Poison,2020,$67481,3,Benin City
+84,21/10/2024,Chanel,No. 5,2022,$25270,10,Abuja
+85,13/11/2024,Dior,Miss Dior,2021,$35301,10,Port Harcourt
+86,25/05/2024,YSL,Libre,2020,$47782,7,Port Harcourt
+87,02/03/2024,Giorgio Armani,Code,2021,$90939,9,Abuja
+88,02/10/2024,Versace,Crystal Noir,2022,$67347,1,Benin City
+89,02/11/2024,Giorgio Armani,Prive,2022,$47290,1,Abuja
+90,12/01/2024,Hugo Boss,Alive,2024,$67935,2,Benin City
+91,25/03/2024,Burberry,Brit,2022,$52639,10,Kaduna
+92,24/09/2024,Chanel,Bleu de Chanel,2022,$50339,7,Lagos
+93,18/09/2024,YSL,Opium,2021,$43240,9,Enugu
+94,13/11/2024,YSL,L'Homme,2023,$27865,3,Port Harcourt
+95,27/01/2024,Prada,Candy,2021,$59965,8,Port Harcourt
+96,05/02/2024,Giorgio Armani,Si,2022,$39056,3,Port Harcourt
+97,20/03/2024,Burberry,Brit,2020,$18604,8,Ibadan
+98,09/01/2024,Gucci,Flora,2024,$94072,4,Ibadan
+99,08/03/2024,Burberry,Brit,2021,$86667,10,Kaduna
+100,13/11/2024,Prada,Infusion d'Iris,2022,$39832,8,Port Harcourt
+101,23/08/2024,Calvin Klein,Escape,2020,$45518,3,Lagos
+102,06/06/2024,Calvin Klein,Euphoria,2024,$19678,4,Enugu
+103,24/07/2024,Giorgio Armani,Prive,2024,$88267,3,Benin City
+104,11/12/2024,Hugo Boss,Boss Bottled,2021,$55264,8,Benin City
+105,22/02/2024,Prada,Candy,2021,$50368,7,Lagos
+106,10/09/2024,Hugo Boss,Ma Vie,2022,$68594,10,Kaduna
+107,16/06/2024,Calvin Klein,CK One,2024,$23665,5,Port Harcourt
+108,25/04/2024,Gucci,Bloom,2023,$20447,9,Port Harcourt
+109,06/08/2024,YSL,Libre,2020,$64773,6,Kaduna
+110,12/10/2024,Calvin Klein,Escape,2020,$87801,6,Port Harcourt
+111,22/09/2024,Calvin Klein,Obsession,2020,$31795,5,Port Harcourt
+112,26/06/2024,YSL,Libre,2024,$90829,8,Ibadan
+113,02/08/2024,Giorgio Armani,Code,2022,$30854,2,Abuja
+114,03/09/2024,Burberry,Touch,2021,$21914,4,Benin City
+115,07/10/2024,Prada,Luna Rossa,2023,$89383,2,Abuja
+116,22/09/2024,Giorgio Armani,Stronger With You,2020,$89128,7,Kaduna
+117,11/06/2024,YSL,Black Opium,2021,$86051,8,Enugu
+118,20/06/2024,Dior,Poison,2020,$31921,1,Benin City
+119,17/11/2024,Versace,Crystal Noir,2023,$69626,5,Enugu
+120,24/06/2024,Gucci,Rush,2022,$34684,6,Lagos
+121,04/08/2024,YSL,Mon Paris,2021,$31701,5,Kano
+122,13/07/2024,Dior,Poison,2023,$70502,6,Lagos
+123,19/09/2024,Giorgio Armani,Stronger With You,2020,$15236,10,Ibadan
+124,16/09/2024,Dior,J'adore,2023,$70736,7,Abuja
+125,13/05/2024,Prada,Candy,2024,$68331,5,Kaduna
+126,06/01/2024,Gucci,Bamboo,2023,$91212,1,Port Harcourt
+127,20/06/2024,Gucci,Rush,2024,$57712,5,Lagos
+128,16/12/2024,Calvin Klein,Obsession,2024,$55270,9,Benin City
+129,04/02/2024,Hugo Boss,Jour,2020,$92040,7,Kano
+130,28/11/2024,YSL,L'Homme,2021,$19996,7,Benin City
+131,16/01/2024,Calvin Klein,Obsession,2021,$92906,8,Kaduna
+132,18/10/2024,Prada,La Femme,2021,$40234,2,Port Harcourt
+133,11/04/2024,Calvin Klein,CK One,2020,$17883,6,Enugu
+134,29/07/2024,Hugo Boss,Alive,2024,$79336,10,Lagos
+135,01/12/2024,Burberry,Her,2023,$52531,7,Benin City
+136,09/07/2024,Prada,Luna Rossa,2021,$19678,7,Ibadan
+137,29/08/2024,Dior,Fahrenheit,2020,$71615,10,Kaduna
+138,20/05/2024,Hugo Boss,Boss Bottled,2021,$64036,9,Benin City
+139,17/08/2024,Dior,J'adore,2023,$89580,7,Abuja
+140,25/12/2024,YSL,Libre,2020,$61520,5,Benin City
+141,24/12/2024,Calvin Klein,CK One,2021,$27434,3,Ibadan
+142,04/02/2024,Versace,Bright Crystal,2021,$88957,6,Abuja
+143,03/11/2024,Burberry,Weekend,2022,$67069,10,Benin City
+144,19/06/2024,Giorgio Armani,Prive,2022,$72730,6,Port Harcourt
+145,28/07/2024,Giorgio Armani,Prive,2024,$52098,4,Ibadan
+146,09/03/2024,Giorgio Armani,Acqua di Gio,2021,$86604,1,Port Harcourt
+147,26/10/2024,YSL,Black Opium,2021,$51834,1,Enugu
+148,09/05/2024,YSL,Mon Paris,2020,$32885,1,Abuja
+149,22/09/2024,Calvin Klein,Escape,2022,$61300,9,Lagos
+150,08/04/2024,YSL,Opium,2020,$74663,9,Kano
+151,29/07/2024,Prada,Luna Rossa,2023,$39083,1,Enugu
+152,01/01/2024,Burberry,London,2022,$76646,7,Benin City
+153,22/08/2024,Dior,Miss Dior,2021,$84963,5,Port Harcourt
+154,27/05/2024,Calvin Klein,Euphoria,2022,$35123,10,Benin City
+155,18/04/2024,Calvin Klein,Escape,2021,$54531,5,Kano
+156,01/02/2024,Giorgio Armani,Code,2022,$33810,4,Benin City
+157,06/10/2024,Chanel,Coco Mademoiselle,2023,$49508,2,Benin City
+158,08/12/2024,YSL,L'Homme,2022,$65588,10,Kaduna
+159,05/04/2024,Prada,La Femme,2023,$81395,4,Kaduna
+160,30/12/2024,Gucci,Bamboo,2022,$44036,5,Abuja
+161,09/12/2024,Calvin Klein,CK One,2020,$53428,7,Kaduna
+162,22/05/2024,Versace,Bright Crystal,2023,$25442,7,Abuja
+163,01/09/2024,Gucci,Guilty,2024,$91852,3,Benin City
+164,30/12/2024,Gucci,Bamboo,2022,$44681,2,Kaduna
+165,08/10/2024,Burberry,Her,2024,$92621,9,Kaduna
+166,21/11/2024,Dior,J'adore,2023,$39030,2,Ibadan
+167,06/11/2024,Calvin Klein,CK One,2020,$75681,6,Benin City
+168,02/06/2024,Burberry,Touch,2022,$18533,2,Abuja
+169,08/09/2024,YSL,Libre,2021,$73609,9,Enugu
+170,26/02/2024,YSL,Opium,2023,$16109,5,Kano
+171,30/01/2024,Calvin Klein,Eternity,2020,$29154,1,Enugu
+172,15/06/2024,Giorgio Armani,Stronger With You,2023,$28409,6,Ibadan
+173,11/07/2024,Prada,L'Homme,2022,$23448,8,Lagos
+174,22/05/2024,Dior,Poison,2020,$38757,1,Benin City
+175,25/11/2024,Versace,Eros,2020,$80588,7,Lagos
+176,15/12/2024,Giorgio Armani,Si,2023,$52209,6,Ibadan
+177,14/09/2024,Burberry,Weekend,2020,$57172,4,Ibadan
+178,15/12/2024,Dior,J'adore,2021,$33860,6,Benin City
+179,21/11/2024,Giorgio Armani,Stronger With You,2020,$64633,4,Benin City
+180,07/03/2024,Versace,Bright Crystal,2021,$79391,3,Abuja
+181,16/08/2024,Calvin Klein,Escape,2022,$49349,5,Lagos
+182,02/12/2024,YSL,L'Homme,2022,$41609,7,Abuja
+183,27/02/2024,Dior,Miss Dior,2023,$54573,3,Port Harcourt
+184,23/01/2024,Giorgio Armani,Stronger With You,2023,$90486,7,Benin City
+185,15/10/2024,YSL,Mon Paris,2022,$64850,10,Abuja
+186,14/12/2024,Dior,Poison,2022,$19466,4,Ibadan
+187,17/03/2024,Hugo Boss,The Scent,2021,$38035,10,Enugu
+188,17/06/2024,Chanel,Coco Mademoiselle,2024,$58778,1,Enugu
+189,15/06/2024,Chanel,Bleu de Chanel,2021,$84637,9,Port Harcourt
+190,23/05/2024,Hugo Boss,Alive,2021,$53122,7,Abuja
+191,22/04/2024,Giorgio Armani,Code,2020,$78368,4,Kano
+192,03/01/2024,Dior,J'adore,2022,$63589,3,Port Harcourt
+193,12/12/2024,Giorgio Armani,Acqua di Gio,2021,$45986,10,Benin City
+194,10/10/2024,Calvin Klein,Euphoria,2022,$67988,8,Abuja
+195,07/08/2024,Hugo Boss,The Scent,2020,$52112,8,Port Harcourt
+196,03/04/2024,Chanel,Chance,2020,$29150,5,Enugu
+197,18/08/2024,Giorgio Armani,Acqua di Gio,2022,$29522,3,Port Harcourt
+198,12/03/2024,Versace,Pour Homme,2023,$92413,9,Kano
+199,16/06/2024,Burberry,Weekend,2024,$77474,5,Enugu
+200,11/04/2024,Hugo Boss,Ma Vie,2024,$85109,5,Abuja

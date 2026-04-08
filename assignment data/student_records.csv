@@ -1,0 +1,101 @@
+student_id,first_name,last_name,date_of_birth,enrollment_date,major,gpa,city
+STU-1001,Sarah,Garcia,2000-02-14,2021-03-15,Mathematics,2.82,Port Harcourt
+STU-1002,Amelia,Jones,2002-02-02,2022-05-08,English Literature,2.56,Kano
+STU-1003,Mia,Martin,2000-02-12,2024-09-01,English Literature,2.98,Port Harcourt
+STU-1004,Olivia,Gonzalez,2006-05-02,2022-07-07,Computer Science,3.46,Lagos
+STU-1005,Emily,Johnson,2002-05-19,2022-04-02,Mechanical Engineering,3.45,Jos
+STU-1006,Amelia,Johnson,2000-08-21,2023-10-03,Mathematics,2.01,Ibadan
+STU-1007,Jane,Jackson,2005-03-26,2023-03-03,Mathematics,2.11,Port Harcourt
+STU-1008,Emma,Miller,2000-07-26,2022-07-20,Political Science,3.19,Lagos
+STU-1009,Amelia,Rodriguez,2002-04-19,2022-04-27,Civil Engineering,3.29,Lagos
+STU-1010,William,Martinez,2005-08-27,2022-08-14,Mathematics,3.06,Enugu
+STU-1011,Charlotte,Thomas,2005-04-16,2024-01-26,Economics,3.9,Enugu
+STU-1012,Emma,Brown,2001-08-21,2021-03-03,Psychology,3.5,Kaduna
+STU-1013,Chris,Smith,2005-02-15,2023-12-01,Mechanical Engineering,3.69,Lagos
+STU-1014,Matthew,Moore,2004-09-13,2024-06-07,Business Administration,3.54,Port Harcourt
+STU-1015,Daniel,Miller,2003-02-28,2023-10-23,Mathematics,2.13,Kaduna
+STU-1016,Mia,Smith,2006-08-30,2023-06-24,English Literature,3.15,Jos
+STU-1017,Mia,Martinez,2001-05-28,2020-10-19,Economics,2.07,Lagos
+STU-1018,Joseph,Wilson,2002-09-07,2023-07-17,English Literature,2.94,Benin City
+STU-1019,Mia,Rodriguez,2002-09-27,2023-09-04,Mechanical Engineering,2.36,Enugu
+STU-1020,Daniel,Hernandez,2000-05-28,2021-05-31,Biology,2.52,Port Harcourt
+STU-1021,Daniel,Martin,2006-06-04,2022-06-02,English Literature,3.54,Benin City
+STU-1022,Robert,Smith,2000-12-24,2024-04-20,Mathematics,3.08,Benin City
+STU-1023,Amelia,Wilson,2004-04-07,2024-03-19,English Literature,2.81,Kano
+STU-1024,Emma,Anderson,2004-10-21,2020-12-14,Computer Science,2.79,Abuja
+STU-1025,Joseph,Jones,2001-06-12,2022-01-19,Political Science,2.13,Kaduna
+STU-1026,Sarah,Moore,2003-05-08,2023-06-26,Economics,2.96,Kaduna
+STU-1027,Joseph,Taylor,2005-07-21,2022-02-12,Economics,3.51,Lagos
+STU-1028,William,Gonzalez,2002-11-04,2023-12-06,Economics,2.63,Jos
+STU-1029,Michael,Wilson,2000-04-24,2022-09-15,Economics,2.62,Kano
+STU-1030,James,Rodriguez,2001-10-29,2022-05-27,Civil Engineering,3.79,Benin City
+STU-1031,Joseph,Brown,2006-01-31,2022-01-22,English Literature,3.55,Kano
+STU-1032,James,Anderson,2003-06-23,2024-06-01,Psychology,2.36,Ibadan
+STU-1033,Sarah,Gonzalez,2006-03-14,2021-08-28,Civil Engineering,3.43,Port Harcourt
+STU-1034,Matthew,Lopez,2000-09-19,2023-05-16,Political Science,3.89,Abeokuta
+STU-1035,Olivia,Hernandez,2005-10-11,2022-11-21,Political Science,3.42,Kaduna
+STU-1036,Matthew,Thomas,2006-03-22,2021-02-24,Political Science,2.7,Kano
+STU-1037,Emma,Rodriguez,2004-09-09,2023-12-15,Mechanical Engineering,3.04,Port Harcourt
+STU-1038,Jane,Garcia,2003-05-16,2020-11-03,Civil Engineering,3.79,Abeokuta
+STU-1039,Amelia,Garcia,2006-08-19,2021-08-19,Biology,2.56,Kaduna
+STU-1040,Amelia,Wilson,2001-10-07,2023-03-19,Political Science,3.46,Benin City
+STU-1041,Matthew,Jones,2003-08-28,2021-06-30,Biology,2.01,Enugu
+STU-1042,Daniel,Davis,2000-09-25,2021-03-23,Computer Science,2.61,Kano
+STU-1043,Chris,Moore,2003-05-03,2022-12-05,Political Science,2.98,Kano
+STU-1044,Sophia,Williams,2001-04-05,2022-08-15,Biology,3.87,Kaduna
+STU-1045,William,Jackson,2006-02-01,2024-05-06,Business Administration,2.61,Abeokuta
+STU-1046,Robert,Miller,2006-05-11,2022-03-17,Biology,3.63,Abuja
+STU-1047,William,Jones,2006-09-21,2021-02-03,Business Administration,3.18,Ibadan
+STU-1048,Chris,Martinez,2000-12-16,2024-07-12,Civil Engineering,2.59,Abeokuta
+STU-1049,Sophia,Hernandez,2004-08-31,2022-07-28,Economics,2.98,Kaduna
+STU-1050,Sarah,Taylor,2001-03-22,2023-01-11,Mechanical Engineering,2.2,Jos
+STU-1051,Matthew,Taylor,2003-01-26,2024-03-30,Business Administration,2.79,Jos
+STU-1052,Chris,Johnson,2003-02-11,2022-08-21,Economics,2.51,Lagos
+STU-1053,Michael,Hernandez,2004-02-29,2022-01-24,Business Administration,2.4,Enugu
+STU-1054,Joseph,Taylor,2005-06-18,2021-08-20,Psychology,3.47,Ibadan
+STU-1055,Charlotte,Miller,2004-04-24,2023-04-17,Civil Engineering,2.85,Jos
+STU-1056,Daniel,Martinez,2003-06-11,2024-02-06,Computer Science,2.33,Abuja
+STU-1057,Mia,Miller,2003-08-28,2023-03-26,English Literature,2.32,Kano
+STU-1058,Amelia,Gonzalez,2000-07-02,2020-09-08,Civil Engineering,4.0,Lagos
+STU-1059,Matthew,Jackson,2005-04-27,2022-12-16,English Literature,3.96,Kaduna
+STU-1060,Isabella,Davis,2002-09-18,2022-06-28,Mechanical Engineering,2.91,Abeokuta
+STU-1061,Olivia,Moore,2000-03-11,2021-09-11,Civil Engineering,3.78,Lagos
+STU-1062,Charlotte,Garcia,2004-09-18,2022-11-19,Mechanical Engineering,3.99,Abeokuta
+STU-1063,James,Jackson,2004-01-17,2023-04-08,Economics,3.0,Ibadan
+STU-1064,Sophia,Williams,2002-06-05,2022-07-27,Mechanical Engineering,3.55,Ibadan
+STU-1065,Amelia,Martinez,2005-12-25,2021-09-25,Psychology,3.27,Kano
+STU-1066,Chris,Taylor,2002-07-17,2023-05-18,Economics,2.83,Lagos
+STU-1067,James,Rodriguez,2001-06-14,2023-07-11,Civil Engineering,2.98,Lagos
+STU-1068,Emma,Anderson,2004-02-10,2020-11-04,English Literature,3.74,Ibadan
+STU-1069,Michael,Davis,2004-11-01,2024-03-18,Mechanical Engineering,3.02,Port Harcourt
+STU-1070,David,Brown,2006-04-26,2023-11-11,Political Science,2.07,Benin City
+STU-1071,Jane,Garcia,2001-02-16,2020-11-28,Political Science,2.24,Lagos
+STU-1072,Charlotte,Williams,2004-07-20,2022-09-07,Economics,2.26,Ibadan
+STU-1073,Jane,Rodriguez,2002-05-16,2022-01-04,Business Administration,3.86,Kaduna
+STU-1074,James,Hernandez,2003-02-11,2022-10-27,Civil Engineering,3.78,Port Harcourt
+STU-1075,John,Martin,2002-08-21,2022-04-12,Psychology,2.47,Jos
+STU-1076,Matthew,Johnson,2000-10-31,2022-11-23,Political Science,2.32,Abeokuta
+STU-1077,Daniel,Lopez,2001-05-23,2023-07-24,English Literature,2.5,Port Harcourt
+STU-1078,James,Miller,2000-06-29,2020-10-27,Psychology,3.46,Benin City
+STU-1079,Matthew,Brown,2006-12-06,2021-10-22,English Literature,3.87,Enugu
+STU-1080,Robert,Martinez,2001-10-25,2023-11-30,Civil Engineering,3.91,Jos
+STU-1081,Matthew,Gonzalez,2002-12-10,2021-07-07,Mechanical Engineering,3.63,Enugu
+STU-1082,Emily,Wilson,2000-04-29,2023-12-09,Mechanical Engineering,2.54,Kano
+STU-1083,Michael,Lopez,2005-12-12,2023-03-23,Civil Engineering,3.52,Ibadan
+STU-1084,Olivia,Anderson,2000-04-30,2022-05-09,Business Administration,3.85,Benin City
+STU-1085,Sophia,Thomas,2004-10-15,2022-03-08,Psychology,3.54,Abuja
+STU-1086,Sophia,Lopez,2006-07-08,2023-12-19,English Literature,2.8,Benin City
+STU-1087,David,Brown,2000-10-11,2021-09-01,Psychology,3.16,Kano
+STU-1088,Mia,Gonzalez,2003-10-24,2024-05-26,Mechanical Engineering,2.95,Abuja
+STU-1089,Joseph,Jones,2003-10-26,2022-06-03,Political Science,2.02,Kaduna
+STU-1090,Emily,Taylor,2004-04-20,2021-03-26,Mechanical Engineering,3.75,Jos
+STU-1091,Sophia,Jackson,2002-08-26,2022-01-06,Mathematics,2.95,Benin City
+STU-1092,Isabella,Lopez,2000-04-12,2022-03-27,Mechanical Engineering,2.46,Lagos
+STU-1093,Chris,Rodriguez,2001-01-10,2022-10-06,Computer Science,2.03,Ibadan
+STU-1094,Isabella,Brown,2000-01-06,2021-07-17,Mathematics,3.48,Benin City
+STU-1095,William,Smith,2001-11-16,2023-04-07,Mathematics,3.08,Kano
+STU-1096,Daniel,Rodriguez,2004-01-20,2023-06-11,Economics,3.22,Kano
+STU-1097,Daniel,Johnson,2003-06-15,2024-01-07,Civil Engineering,3.48,Abeokuta
+STU-1098,Olivia,Martin,2001-03-18,2024-03-08,Business Administration,2.02,Enugu
+STU-1099,Michael,Martin,2001-07-15,2024-08-13,Economics,3.49,Abuja
+STU-1100,Sarah,Garcia,2005-01-01,2023-04-02,Business Administration,2.75,Lagos

@@ -1,0 +1,158 @@
+# ==============================
+# 1. IMPORT LIBRARIES
+# ==============================
+
+import pandas as pd
+import numpy as np
+
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    confusion_matrix,
+    ConfusionMatrixDisplay
+)
+
+import matplotlib.pyplot as plt
+
+
+# ==============================
+# 2. LOAD DATA
+# ==============================
+
+url = "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv"
+df = pd.read_csv(url)
+
+print(df.head())
+
+
+# ==============================
+# 3. DATA INSPECTION
+# ==============================
+
+print(df.info())
+print(df.isnull().sum())
+
+
+# ==============================
+# 4. DATA CLEANING
+# ==============================
+
+# Remove ID column
+df.drop("customerID", axis=1, inplace=True, errors='ignore')
+
+# Fix TotalCharges
+df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors='coerce')
+
+# Fill missing values
+df["TotalCharges"] = df["TotalCharges"].fillna(df["TotalCharges"].median())
+
+# Encode target
+df["Churn"] = df["Churn"].str.strip().map({"Yes": 1, "No": 0})
+
+
+# ==============================
+# 5. ENCODING CATEGORICAL VARIABLES
+# ==============================
+
+df = pd.get_dummies(df, drop_first=True)
+
+print("Remaining missing values:", df.isnull().sum().sum())
+
+
+# ==============================
+# 6. FEATURE & TARGET SPLIT
+# ==============================
+
+X = df.drop("Churn", axis=1)
+y = df["Churn"]
+
+
+# ==============================
+# 7. TRAIN-TEST SPLIT (WITH STRATIFY)
+# ==============================
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42, stratify=y
+)
+
+
+# ==============================
+# 8. BASELINE LOGISTIC REGRESSION (NO SCALING)
+# ==============================
+
+baseline_model = LogisticRegression(max_iter=1000)
+baseline_model.fit(X_train, y_train)
+
+baseline_pred = baseline_model.predict(X_test)
+
+print("\n=== BASELINE LOGISTIC REGRESSION ===")
+print("Accuracy:", accuracy_score(y_test, baseline_pred))
+print(classification_report(y_test, baseline_pred))
+
+
+# ==============================
+# 9. SCALING (FOR LOGISTIC REGRESSION)
+# ==============================
+
+scaler = StandardScaler()
+
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+
+# ==============================
+# 10. IMPROVED LOGISTIC REGRESSION
+# ==============================
+
+log_model = LogisticRegression(max_iter=1000)
+log_model.fit(X_train_scaled, y_train)
+
+log_pred = log_model.predict(X_test_scaled)
+
+print("\n=== IMPROVED LOGISTIC REGRESSION ===")
+print("Accuracy:", accuracy_score(y_test, log_pred))
+print(classification_report(y_test, log_pred))
+
+
+# ==============================
+# 11. RANDOM FOREST MODEL
+# ==============================
+
+rf_model = RandomForestClassifier(random_state=42)
+rf_model.fit(X_train, y_train)
+
+rf_pred = rf_model.predict(X_test)
+
+print("\n=== RANDOM FOREST ===")
+print("Accuracy:", accuracy_score(y_test, rf_pred))
+print(classification_report(y_test, rf_pred))
+
+
+# ==============================
+# 12. CONFUSION MATRIX (LOGISTIC REGRESSION)
+# ==============================
+
+cm_log = confusion_matrix(y_test, log_pred)
+
+disp_log = ConfusionMatrixDisplay(confusion_matrix=cm_log)
+disp_log.plot(cmap="Blues")
+plt.title("Confusion Matrix - Logistic Regression")
+plt.show()
+
+
+# ==============================
+# 13. CONFUSION MATRIX (RANDOM FOREST)
+# ==============================
+
+cm_rf = confusion_matrix(y_test, rf_pred)
+
+disp_rf = ConfusionMatrixDisplay(confusion_matrix=cm_rf)
+disp_rf.plot(cmap="Greens")
+plt.title("Confusion Matrix - Random Forest")
+plt.show()

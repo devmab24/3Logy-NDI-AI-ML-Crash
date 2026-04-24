@@ -1,0 +1,101 @@
+﻿sale_id,sale_date,brand,model,year,price_usd,quantity_sold,dealership_city
+1,12/03/2024,Hyundai,Elantra,2018,$33024,2,Abuja
+2,04/08/2024,Hyundai,Elantra,2023,$50741,1,Ibadan
+3,04/11/2024,Toyota,Corolla,2018,$29328,2,Ibadan
+4,22/04/2024,Toyota,RAV4,2019,$57590,5,Kano
+5,04/08/2024,BMW,X3,2020,$15425,2,Enugu
+6,17/02/2024,Ford,Fusion,2019,$29110,3,Lagos
+7,23/01/2024,BMW,3 Series,2020,$37541,5,Port Harcourt
+8,09/10/2024,Hyundai,Sonata,2022,$23180,4,Lagos
+9,26/12/2024,Ford,Escape,2022,$38700,5,Abuja
+10,29/04/2024,Toyota,Corolla,2023,$29935,3,Lagos
+11,05/07/2024,Kia,Rio,2021,$33217,4,Enugu
+12,15/12/2024,Honda,Accord,2020,$28730,3,Enugu
+13,05/05/2024,Hyundai,Elantra,2022,$56613,2,Ibadan
+14,16/12/2024,Honda,Accord,2021,"₦32,691.00",5,Abuja
+15,17/05/2024,Ford,Focus,2019,"₦17,103.00",3,Kano
+16,12/09/2024,Toyota,Corolla,2022,"₦35,622.00",2,Enugu
+17,06/05/2024,BMW,X3,2021,"₦24,363.00",3,Abuja
+18,25/10/2024,Hyundai,Tucson,2022,"₦32,219.00",5,Kano
+19,16/02/2024,BMW,5 Series,2019,"₦24,065.00",5,Kano
+20,22/03/2024,Kia,Rio,2024,"₦22,185.00",2,Enugu
+21,14/07/2024,Kia,Optima,2021,"₦54,086.00",1,Kano
+22,14/12/2024,Mercedes,E-Class,2022,"₦31,476.00",5,Lagos
+23,23/06/2024,Hyundai,Elantra,2023,"₦50,190.00",3,Enugu
+24,14/05/2024,Toyota,Camry,2021,"₦25,365.00",4,Lagos
+25,16/09/2024,Mercedes,C-Class,2022,"₦21,973.00",3,Enugu
+26,28/09/2024,Mercedes,C-Class,2019,"₦39,504.00",2,Ibadan
+27,04/07/2024,Toyota,RAV4,2020,"₦47,021.00",1,Lagos
+28,10/02/2024,Kia,Sportage,2019,"₦18,796.00",2,Ibadan
+29,06/03/2024,Toyota,RAV4,2021,"₦19,535.00",5,Abuja
+30,06/11/2024,Hyundai,Sonata,2022,"₦25,821.00",3,Ibadan
+31,09/12/2024,BMW,3 Series,2022,"₦28,182.00",3,Kano
+32,06/05/2024,Hyundai,Sonata,2021,"₦48,919.00",4,Lagos
+33,27/04/2024,Honda,Civic,2020,"₦16,378.00",5,Ibadan
+34,04/02/2024,Mercedes,C-Class,2018,"₦19,652.00",1,Abuja
+35,08/12/2024,Toyota,Camry,2018,"₦48,695.00",2,Port Harcourt
+36,30/08/2024,BMW,3 Series,2022,"₦23,671.00",5,Ibadan
+37,19/02/2024,Honda,Accord,2024,"₦41,677.00",2,Lagos
+38,28/01/2024,Hyundai,Sonata,2020,"₦42,759.00",4,Kano
+39,22/06/2024,Hyundai,Tucson,2023,"₦21,449.00",1,Kano
+40,17/08/2024,Kia,Rio,2019,"₦27,556.00",2,Ibadan
+41,08/02/2024,Honda,Accord,2019,"₦33,254.00",4,Abuja
+42,17/02/2024,BMW,X3,2018,"₦18,315.00",5,Lagos
+43,19/04/2024,Kia,Rio,2019,"₦41,634.00",4,Kano
+44,18/07/2024,Kia,Sportage,2018,"₦25,789.00",4,Lagos
+45,06/09/2024,Ford,Fusion,2020,"₦42,722.00",5,Enugu
+46,04/10/2024,Honda,Civic,2020,"₦29,267.00",1,Ibadan
+47,01/09/2024,Toyota,RAV4,2020,"₦18,746.00",1,Ibadan
+48,05/04/2024,Mercedes,GLA,2019,"₦18,727.00",5,Lagos
+49,02/03/2024,Toyota,RAV4,2018,"₦59,250.00",2,Kano
+50,11/02/2024,Mercedes,C-Class,2022,"₦53,962.00",1,Ibadan
+51,13/05/2024,BMW,X3,2022,"₦52,042.00",5,Port Harcourt
+52,21/07/2024,Honda,CR-V,2023,"₦35,590.00",2,Port Harcourt
+53,07/02/2024,Honda,CR-V,2023,"₦34,660.00",4,Port Harcourt
+54,02/10/2024,Toyota,Camry,2022,"₦51,896.00",1,Lagos
+55,05/05/2024,Honda,CR-V,2020,"₦23,680.00",3,Lagos
+56,03/06/2024,Ford,Fusion,2019,"₦43,716.00",5,Enugu
+57,05/12/2024,Mercedes,GLA,2022,"₦15,512.00",5,Port Harcourt
+58,10/10/2024,Toyota,Corolla,2020,"₦22,564.00",1,Enugu
+59,24/06/2024,Honda,Accord,2020,"₦54,638.00",2,Enugu
+60,08/05/2024,Honda,CR-V,2023,"₦32,300.00",5,Kano
+61,23/01/2024,Kia,Rio,2018,"₦56,568.00",4,Port Harcourt
+62,14/08/2024,Toyota,Camry,2024,"₦23,573.00",3,Abuja
+63,08/02/2024,Mercedes,GLA,2021,"₦51,759.00",1,Lagos
+64,09/10/2024,Hyundai,Elantra,2022,"₦17,361.00",3,Ibadan
+65,21/01/2024,Honda,Accord,2019,"₦17,741.00",3,Port Harcourt
+66,13/10/2024,Ford,Focus,2023,"₦31,353.00",1,Port Harcourt
+67,31/03/2024,Kia,Sportage,2022,"₦25,128.00",2,Abuja
+68,07/05/2024,BMW,3 Series,2019,"₦36,770.00",4,Enugu
+69,28/08/2024,Ford,Focus,2024,"₦22,084.00",4,Lagos
+70,26/04/2024,Honda,Civic,2024,"₦45,166.00",3,Port Harcourt
+71,22/05/2024,Honda,Civic,2023,"₦27,656.00",4,Port Harcourt
+72,17/09/2024,Kia,Rio,2024,"₦33,292.00",3,Enugu
+73,29/02/2024,BMW,X3,2024,"₦50,141.00",3,Lagos
+74,01/11/2024,Ford,Focus,2022,"₦32,397.00",1,Lagos
+75,18/09/2024,BMW,5 Series,2023,"₦35,557.00",4,Ibadan
+76,28/12/2024,Toyota,Camry,2022,"₦27,457.00",3,Lagos
+77,08/08/2024,BMW,3 Series,2022,"₦50,287.00",2,Port Harcourt
+78,04/03/2024,Toyota,RAV4,2020,"₦55,839.00",3,Enugu
+79,25/07/2024,Hyundai,Sonata,2022,"₦35,269.00",4,Port Harcourt
+80,06/12/2024,Hyundai,Sonata,2022,"₦23,341.00",2,Kano
+81,03/06/2024,BMW,X3,2023,"₦26,405.00",5,Ibadan
+82,17/04/2024,BMW,X3,2024,"₦15,026.00",3,Port Harcourt
+83,14/08/2024,BMW,X3,2022,"₦57,906.00",3,Kano
+84,27/03/2024,BMW,X3,2019,"₦48,500.00",4,Enugu
+85,17/02/2024,Hyundai,Elantra,2020,"₦48,780.00",5,Port Harcourt
+86,16/03/2024,Kia,Rio,2023,"₦35,343.00",2,Abuja
+87,21/08/2024,Toyota,Corolla,2019,"₦46,138.00",5,Lagos
+88,23/07/2024,BMW,X3,2022,"₦27,742.00",4,Kano
+89,22/04/2024,Honda,Civic,2023,"₦15,363.00",1,Kano
+90,07/05/2024,Honda,CR-V,2022,"₦45,444.00",1,Ibadan
+91,28/09/2024,Kia,Rio,2021,"₦23,738.00",4,Enugu
+92,15/09/2024,Mercedes,GLA,2020,"₦44,004.00",5,Enugu
+93,12/05/2024,BMW,X3,2021,"₦25,430.00",4,Kano
+94,05/09/2024,Kia,Rio,2024,"₦56,789.00",3,Ibadan
+95,26/05/2024,Hyundai,Elantra,2020,"₦43,827.00",1,Enugu
+96,11/03/2024,Honda,Accord,2020,"₦35,952.00",5,Lagos
+97,31/07/2024,Honda,Civic,2021,"₦25,014.00",2,Lagos
+98,15/04/2024,BMW,5 Series,2022,"₦45,534.00",4,Lagos
+99,13/07/2024,Kia,Sportage,2021,"₦53,278.00",1,Ibadan
+100,02/10/2024,BMW,3 Series,2020,"₦34,569.00",4,Kano

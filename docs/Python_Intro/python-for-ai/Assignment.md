@@ -30,27 +30,6 @@ By completing this assignment, students should be able to:
 
 # Task 1: Find a News Source
 
-## Option A: News API
-
-Examples:
-
-* NewsAPI
-* GNews API
-* Mediastack
-
-Expected Fields:
-
-```text
-Headline
-Category
-Source
-Published Date
-```
-
----
-
-## Option B: Web Scraping
-
 Students may use:
 
 ```python

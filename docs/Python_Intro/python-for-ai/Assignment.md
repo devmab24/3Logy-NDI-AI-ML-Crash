@@ -18,12 +18,13 @@ Before a model can be trained, the company needs a dataset. Your responsibility 
 # Learning Objectives
 
 By completing this assignment, students should be able to:
-✅ Use APIs to collect data
-✅ Perform basic web scraping
-✅ Extract useful information
-✅ Create Pandas DataFrames
-✅ Export data to CSV files
-✅ Understand the Data Collection stage of the ML lifecycle
+
+- ✅ Use APIs to collect data
+- ✅ Perform basic web scraping
+- ✅ Extract useful information
+- ✅ Create Pandas DataFrames
+- ✅ Export data to CSV files
+- ✅ Understand the Data Collection stage of the ML lifecycle
 
 ---
 

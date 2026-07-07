@@ -189,7 +189,7 @@ Example:
 
 ---
 
-# Evaluation Rubric (20 Marks)
+# Evaluation Rubric (100 Marks)
 
 | Criteria                         | Marks |
 | -------------------------------- | ----- |
@@ -203,5 +203,5 @@ Example:
 Total:
 
 ```text
-20 Marks
+100 Marks
 ```

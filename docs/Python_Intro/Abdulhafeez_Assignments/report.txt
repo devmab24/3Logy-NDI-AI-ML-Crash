@@ -1,0 +1,20 @@
+- Short Report:
+- News Headline Dataset Collection
+I collected headlines from a mix of RSS feeds and a news API,
+pulling from multiple outlets rather than a single site to increase variety.
+
+- Collection Method
+I used a combination of web scraping (RSS and BeautifulSoup) for business and sports,
+and API (NewsAPI) for technology and health to extract data in JSON format and save them as CSV.
+I then used pandas to convert them into a single DataFrame.
+
+- Challenges
+* I was not able to find 50 for each category; some are more and others less.
+* Using free API access limited the data volume.
+
+- Dataset Size
+223 total records collected across 4 categories
+sports = 79
+health = 53
+business = 49
+technology = 42

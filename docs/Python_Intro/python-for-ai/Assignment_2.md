@@ -182,9 +182,14 @@ Store NewsArticle objects inside your scraper.
 > This is exactly the bridge between **Python scripting** and **software engineering for AI/ML systems**.
 ---
 
-## NOTE
+---
 
-This assignment should introduce to you the idea of a **data pipeline**, which is exactly what ML Engineers build in industry.
+## Submission
+
+On or before Friday, 17th of June 2026.
 
 ---
 
+## NOTE
+
+This assignment should introduce to you the idea of a **data pipeline**, which is exactly what ML Engineers build in industry.

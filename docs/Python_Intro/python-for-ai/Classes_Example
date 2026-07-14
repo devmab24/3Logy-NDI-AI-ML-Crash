@@ -1,0 +1,46 @@
+class MLModel:
+    def __init__(self, learning_rate=0.01, max_iter=100):
+        # Sets up the hyperparameters and initial state
+        self.learning_rate = learning_rate
+        self.max_iter = max_iter
+        self.is_trained = False
+        self.weights = None
+
+    def fit(self, X_train, y_train):
+        """Method 1: Simulates training the model on data."""
+        print(f"Training model with learning rate {self.learning_rate}...")
+        
+        # Simulate weight optimization loop
+        self.weights = [0.5, -1.2, 3.1] 
+        self.is_trained = True
+        
+        print(f"Training complete after {self.max_iter} iterations.")
+
+    def predict(self, X_new):
+        """Method 2: Makes predictions using the trained weights."""
+        if not self.is_trained:
+            print("Error: Cannot predict. Train the model first using .fit()!")
+            return None
+            
+        print(f"Processing {len(X_new)} new samples using weights {self.weights}...")
+        # Simulate generating a prediction list
+        predictions = [1, 0, 1] 
+        return predictions
+
+
+# --- How to use the class ---
+
+# 1. Initialize the model with custom hyperparameters
+my_model = MLModel(learning_rate=0.05, max_iter=500)
+
+# 2. Try to predict before training (Triggers the safety check)
+my_model.predict([[1, 2, 3]]) 
+
+# 3. Train the model using the fit method
+dummy_X = [[1, 2], [3, 4], [5, 6]]
+dummy_y = [1, 0, 1]
+my_model.fit(dummy_X, dummy_y)
+
+# 4. Successfully make predictions now that it is trained
+results = my_model.predict([[7, 8], [9, 10], [11, 12]])
+print(f"Predicted outputs: {results}")

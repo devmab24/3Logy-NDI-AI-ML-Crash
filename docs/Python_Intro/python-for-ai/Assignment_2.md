@@ -12,9 +12,9 @@ The company has asked you to redesign your solution using Object-Oriented Progra
 
 ---
 
-# Learning Objectives
+# Objectives
 
-By completing this assignment, students should be able to:
+By completing this assignment, you should be able to:
 
 * Create classes
 * Use constructors (`__init__`)

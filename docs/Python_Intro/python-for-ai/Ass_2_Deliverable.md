@@ -108,3 +108,9 @@ Suggested hashtags:
 | Professional Presentation | 2     |
 | Screenshots/Evidence      | 2     |
 | Proper Tags & Hashtags    | 1     |
+
+---
+
+## Submission
+
+On or before Friday, 17th of June 2026.

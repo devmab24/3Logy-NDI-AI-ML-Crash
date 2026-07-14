@@ -180,7 +180,6 @@ Store NewsArticle objects inside your scraper.
 
 
 > This is exactly the bridge between **Python scripting** and **software engineering for AI/ML systems**.
----
 
 ---
 

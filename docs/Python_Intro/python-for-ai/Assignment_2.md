@@ -179,7 +179,12 @@ Store NewsArticle objects inside your scraper.
 | Code Organization        | 10    |
 
 
-That is exactly the bridge between **Python scripting** and **software engineering for AI/ML systems**.
+> This is exactly the bridge between **Python scripting** and **software engineering for AI/ML systems**.
 ---
-# NOTE
+
+## NOTE
+
 This assignment should introduce to you the idea of a **data pipeline**, which is exactly what ML Engineers build in industry.
+
+---
+

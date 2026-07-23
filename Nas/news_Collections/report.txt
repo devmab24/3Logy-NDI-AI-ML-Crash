@@ -1,0 +1,39 @@
+Here's a more polished and professional version of your short report:
+
+---
+
+# Short Report: News Headline Dataset Collection
+
+## Overview
+
+I collected news headlines from a combination of RSS feeds and the NewsAPI service. Using multiple news sources instead of relying on a single website helped improve the diversity of the dataset across different categories.
+
+## Data Collection Method
+
+Two different approaches were used to gather the data:
+
+* **Web Scraping:** RSS feeds were parsed using **BeautifulSoup** to collect **Business** and **Sports** news headlines.
+* **API Collection:** **NewsAPI** was used to retrieve **Technology** and **Health** headlines in JSON format.
+
+The collected data were processed using the **Pandas** library, merged into a single DataFrame, cleaned by removing duplicate headlines, and prepared for analysis. The final dataset was saved in CSV format.
+
+## Challenges Encountered
+
+* It was not possible to collect exactly **50 headlines** for every category because the number of available articles differed across news sources.
+* The free version of **NewsAPI** imposed request and data limitations, which reduced the number of technology and health headlines that could be collected.
+
+## Dataset Summary
+
+A total of **223 news headlines** were collected across four categories:
+
+| Category   | Number of Headlines |
+| ---------- | ------------------: |
+| Sports     |                  79 |
+| Health     |                  53 |
+| Business   |                  49 |
+| Technology |                  42 |
+| **Total**  |             **223** |
+
+## Conclusion
+
+The dataset contains a balanced mix of headlines from four major news categories and is suitable for tasks such as text preprocessing, exploratory data analysis, and news classification using machine learning techniques. Although the number of headlines varies by category due to source availability and API restrictions, the dataset provides sufficient diversity for experimentation and model development.

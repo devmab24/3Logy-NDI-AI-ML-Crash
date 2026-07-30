@@ -136,7 +136,7 @@ When your program finishes executing, it should successfully produce a cleaned d
 Submit:
 
 * GitHub repository link here: https://github.com/devmab24/3Logy-NDI-AI-ML-Crash/blob/main/submissions/Sira_URL_Submissions.md
-
+* Deadline: On or Before 1:00PM Monday, 3rd August 2026
 ---
 
 ### Evaluation Rubric (100 Marks)

@@ -18,18 +18,28 @@ S3 → SageMaker → Model → SIRA Application
    
 Prepare a working email address, phone number, accepted payment method, and computer with internet access.
 Keep all AWS credentials private. Never share passwords, access keys, secret keys, or MFA codes.
-4. Create Your AWS Account
-Go to the official AWS website and select Create an AWS Account.
-Complete the registration, email/phone verification, payment information, and support-plan selection. Follow the facilitator's guidance and do not purchase additional support unless instructed.
+
+3. Create your AWS account
+   
+Go to the official AWS website and select `Create an AWS Account`.
+Complete the registration, email/phone verification, payment information, and support-plan selection. Follow the guidance and do not purchase additional support unless instructed.
+
 5. Sign In
+   
 Open the AWS Management Console and sign in after registration.
+
 6. AWS Regions
+   
 AWS resources are created in geographic Regions. Use the Region specified by your facilitator. Do not create resources in multiple Regions unnecessarily.
+
 7. Secure the Root User
 The root user has unrestricted account access. Enable MFA and do not use the root user for everyday development. Do not create root access keys.
-8. IAM and Least Privilege
+
+8. IAM and least privilege
+   
 AWS Identity and Access Management (IAM) controls who can access resources and what they can do.
 Use appropriate IAM identities for development and follow the Principle of Least Privilege: grant only the permissions required for the task.
+
 9. AWS CLI
 Install the AWS CLI from the official documentation:
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
@@ -42,7 +52,8 @@ Verify the active identity:
 ```bash
 aws sts get-caller-identity
 ```
-9. Install Boto3
+
+10. Install Boto3
 Boto3 is the AWS SDK for Python and will allow SIRA to interact with AWS services programmatically.
 ```bash
 pip install boto3
@@ -51,7 +62,8 @@ Verify:
 ```bash
 pip show boto3
 ```
-10. Prepare for Amazon S3
+
+11. Prepare for Amazon S3
 S3 will become the cloud storage layer for SIRA:
 ```text
 sira-data/
@@ -62,19 +74,22 @@ sira-data/
 └── models/
 ```
 Keep buckets private. Do not upload credentials, passwords, personal information, or confidential data.
-11. Billing and Cost Awareness
+
+12. Billing and Cost Awareness
 Review AWS Billing and Cost Management. Become familiar with the billing dashboard, Cost Explorer, budgets, and alerts. Be especially careful with continuously running resources such as SageMaker endpoints, EC2 instances, and databases.
 Before creating a resource, ask:
 What am I creating?
 Why am I creating it?
 What could it cost?
 When should it be deleted?
-12. Do Not Create SageMaker Endpoints Yet
+
+13. Do Not Create SageMaker Endpoints Yet
 For now, complete account and security setup only. Our progression will be:
 ```text
 AWS Account → IAM/Security → AWS CLI/Boto3 → S3 → SageMaker → SIRA Deployment
 ```
-13. Verification Checklist
+
+14. Verification Checklist
 [ ] AWS account created
 [ ] Email and phone verified
 [ ] Root MFA enabled
@@ -86,7 +101,8 @@ AWS Account → IAM/Security → AWS CLI/Boto3 → S3 → SageMaker → SIRA Dep
 [ ] Billing dashboard reviewed
 [ ] Cost monitoring/budget reviewed
 [ ] No credentials committed to GitHub
-14. What Comes Next
+
+15. What Comes Next
 After setup, we will move the SIRA dataset into Amazon S3, introduce SageMaker, and progressively connect the existing ML pipeline to AWS. These practical activities will also reinforce concepts relevant to the AWS Certified AI Practitioner examination.
 Security Reminder
 Never send your AWS password, access keys, secret access keys, MFA codes, or other credentials to instructors, classmates, WhatsApp, GitHub, or ChatGPT. If credentials are exposed, revoke/rotate them immediately.

@@ -2,31 +2,35 @@
 Smart Incident Report Analyzer (SIRA)
 This guide helps you create and configure an AWS account so the SIRA project can progressively move into the AWS environment.
 > **Important:** AWS is a real cloud environment. Some services can incur charges. Monitor usage and delete resources when they are no longer needed.
-1. What We Are Preparing For
+1. What we are preparing for
+   
 Current workflow:
 ```text
 Local Dataset → Data Cleaning → Feature Engineering → Model Training → Evaluation → Prediction
 ```
+
 Target workflow:
 ```text
 S3 → SageMaker → Model → SIRA Application
 ```
-2. Before You Start
+
+2. Before we start
+   
 Prepare a working email address, phone number, accepted payment method, and computer with internet access.
 Keep all AWS credentials private. Never share passwords, access keys, secret keys, or MFA codes.
-3. Create Your AWS Account
+4. Create Your AWS Account
 Go to the official AWS website and select Create an AWS Account.
 Complete the registration, email/phone verification, payment information, and support-plan selection. Follow the facilitator's guidance and do not purchase additional support unless instructed.
-4. Sign In
+5. Sign In
 Open the AWS Management Console and sign in after registration.
-5. AWS Regions
+6. AWS Regions
 AWS resources are created in geographic Regions. Use the Region specified by your facilitator. Do not create resources in multiple Regions unnecessarily.
-6. Secure the Root User
+7. Secure the Root User
 The root user has unrestricted account access. Enable MFA and do not use the root user for everyday development. Do not create root access keys.
-7. IAM and Least Privilege
+8. IAM and Least Privilege
 AWS Identity and Access Management (IAM) controls who can access resources and what they can do.
 Use appropriate IAM identities for development and follow the Principle of Least Privilege: grant only the permissions required for the task.
-8. AWS CLI
+9. AWS CLI
 Install the AWS CLI from the official documentation:
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 Verify:

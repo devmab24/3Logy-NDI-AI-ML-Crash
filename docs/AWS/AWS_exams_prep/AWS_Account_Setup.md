@@ -1,4 +1,4 @@
-### AWS Account Setup Guide for SIRA Development
+## AWS Account Setup Guide for SIRA Development
 Smart Incident Report Analyzer (SIRA)
 This guide helps you create and configure an AWS account so the SIRA project can progressively move into the AWS environment.
 > **Important:** AWS is a real cloud environment. Some services can incur charges. Monitor usage and delete resources when they are no longer needed.

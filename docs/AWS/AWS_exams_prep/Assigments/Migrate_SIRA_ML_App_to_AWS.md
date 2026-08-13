@@ -269,7 +269,7 @@ You should verify that the feature engineering process works successfully in Sag
 
 ---
 
-# 10. Part H - Investigate the AWS storage architecture
+### 10. Part H - Investigate the AWS storage architecture
 
 You have learned about:
 

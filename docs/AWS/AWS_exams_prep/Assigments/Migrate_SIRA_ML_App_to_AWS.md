@@ -1,9 +1,9 @@
-# Assignment: Migrate the SIRA Machine Learning Application to AWS
+## Assignment: Migrate the SIRA Machine Learning Application to AWS
 
-## Smart Incident Report Analyzer (SIRA)
+### SIRA
 
 ### Assignment Level
-Intermediate — AWS + Machine Learning Engineering
+Intermediate AWS + Machine Learning Engineering
 
 ### Project Context
 
@@ -17,16 +17,16 @@ You have now been introduced to the AWS environment and the following services:
 - Amazon EC2
 - Amazon SageMaker AI
 - SageMaker JupyterLab
+- Boto3
+- And other services
 
-Your next task is to take what you have already built locally and **recreate the development environment in AWS**.
+Your next task is to take what you have already built locally and **recreate the development environment in AWS**. The objective is not simply to create an AWS account or launch a notebook.
 
-The objective is not simply to create an AWS account or launch a notebook.
-
-The objective is to understand how a real ML Engineering project can move from a local development environment into the cloud.
+The **objective** is to understand how a real ML Engineering project can move from a local development environment into the cloud.
 
 ---
 
-# 1. Objective
+### 1. **Objective**
 
 By completing this assignment, you should be able to:
 
@@ -43,13 +43,11 @@ By completing this assignment, you should be able to:
 
 ---
 
-# 2. Starting Point
+### 2. **Starting point**
 
-You are NOT starting the project from scratch.
+You are NOT starting the project from scratch. Your existing SIRA application should already contain the work completed during the previous phases.
 
-Your existing SIRA application should already contain the work completed during the previous phases.
-
-Your local project should be similar to:
+Your local project should be **similar** to:
 
 ```text
 smart_incident_report_analyzer/
@@ -69,6 +67,7 @@ smart_incident_report_analyzer/
 │   ├── data_loader.py
 │   ├── incident.py
 │   ├── preprocessing.py
+│   ├── **** ....
 │   └── feature_engineering.py
 │
 ├── models/
@@ -84,9 +83,9 @@ Your task is to reproduce an appropriate version of this environment in AWS.
 
 ---
 
-# 3. Part A — AWS Environment
+### 3. Part A - AWS Environment
 
-## Task 1: Access SageMaker JupyterLab
+### Task 1: Access SageMaker JupyterLab
 
 Using the AWS environment provided during training:
 
@@ -106,11 +105,9 @@ Do NOT expose passwords, access keys, secret keys, or other credentials in your 
 
 ---
 
-# 4. Part B — Create the SIRA Project Structure
+### 4. Part B - Create the SIRA project structure
 
-Inside your SageMaker JupyterLab environment, recreate the project.
-
-Your structure should be similar to:
+Inside your SageMaker JupyterLab environment, recreate the project. Your structure should be similar to:
 
 ```text
 smart_incident_report_analyzer/
@@ -125,6 +122,7 @@ smart_incident_report_analyzer/
 │   ├── data_loader.py
 │   ├── incident.py
 │   ├── preprocessing.py
+│   ├── **** ....
 │   └── feature_engineering.py
 │
 ├── models/
@@ -135,17 +133,13 @@ smart_incident_report_analyzer/
 └── README.md
 ```
 
-You are expected to understand the purpose of each directory and module.
-
-You should NOT simply create empty folders without understanding what belongs inside them.
+You are expected to understand the purpose of each directory and module. You should NOT simply create empty folders without understanding what belongs inside them.
 
 ---
 
-# 5. Part C — Move Your Dataset to Amazon S3
+### 5. Part C - Move your dataset to Amazon S3
 
-Create an appropriate S3 location for the SIRA project.
-
-Organize your data logically.
+Create an appropriate S3 location for the SIRA project. If you have already do not re-create. Organize your data logically.
 
 For example:
 
@@ -157,29 +151,27 @@ SIRA S3 Bucket
 │
 ├── processed/
 │   └── incident_reports_clean.csv
+├── external/
+│   └── incident_reports_external.csv
 │
 └── models/
 ```
 
-Upload the appropriate dataset to S3.
+Upload the appropriate dataset to S3. You should be able to explain:
 
-You should be able to explain:
+- 1. Why you are using S3?
 
-### Why are we using S3?
+- 2. Why shouldn't the SIRA application depend entirely on a local CSV file?
 
-### Why shouldn't the SIRA application depend entirely on a local CSV file?
+- 3. What is the difference between storing a dataset locally and storing it in S3?
 
-### What is the difference between storing a dataset locally and storing it in S3?
-
-### Why should raw and processed datasets be separated?
+- 4. Why should raw and processed datasets be separated?
 
 ---
 
-# 6. Part D — Connect SIRA to S3
+### 6. Part D - Connect SIRA to S3
 
-Your application should be capable of retrieving the dataset from S3.
-
-You may use the AWS SDK for Python (**Boto3**) or another appropriate method introduced during training.
+Your application should be capable of retrieving the dataset from S3. You may use the AWS SDK for Python (**Boto3**) or another appropriate method introduced during training.
 
 Your workflow should become:
 
@@ -203,17 +195,17 @@ The application should NOT require you to manually download the CSV every time y
 
 ---
 
-# 7. Part E — Install Project Dependencies
+### 7. Part E - Install project dependencies
 
 Your project already uses Python libraries.
 
 Review your:
 
 ```text
-requirements.txt
+requirements.txt or anywhere the dependencies are stored
 ```
 
-Install the dependencies required by SIRA inside your cloud environment.
+Install the dependencies required by SIRA inside your cloud environment. 
 
 At minimum, identify the libraries required for:
 
@@ -227,11 +219,9 @@ Verify that your application can import its required packages successfully.
 
 ---
 
-# 8. Part F — Run Your Existing Preprocessing Pipeline
+### 8. Part F - Run your existing preprocessing pipeline
 
-Your existing preprocessing module should now operate inside the AWS environment.
-
-Run your preprocessing pipeline against the dataset stored in S3.
+Your existing preprocessing module should now operate inside the AWS environment. Run your preprocessing pipeline against the dataset stored in S3.
 
 The objective is to reproduce the process you previously performed locally:
 
@@ -247,18 +237,16 @@ Clean Dataset
 Feature Engineering
 ```
 
-Your final cleaned dataset should be saved appropriately.
-
-Consider whether the processed dataset should also be stored in S3.
+Your final cleaned dataset should be saved appropriately. Consider whether the processed dataset should also be stored in S3.
 
 ---
 
-# 9. Part G — Run Feature Engineering
+### 9. Part G - Run feature engineering
 
 Use your existing:
 
 ```text
-feature_engineering.py
+`feature_engineering.py` if you don't have it check the repo.
 ```
 
 module.
@@ -281,39 +269,7 @@ You should verify that the feature engineering process works successfully in Sag
 
 ---
 
-# 10. Part H — Run the Machine Learning Pipeline
-
-If your ML model has already been developed, execute the existing training/evaluation workflow in the AWS environment.
-
-Your workflow should resemble:
-
-```text
-S3 Dataset
-    ↓
-SageMaker JupyterLab
-    ↓
-Data Loading
-    ↓
-Preprocessing
-    ↓
-Feature Engineering
-    ↓
-Train/Test Split
-    ↓
-Model Training
-    ↓
-Evaluation
-    ↓
-Model Artifact
-```
-
-Record the model performance.
-
-Compare the result with the model performance you obtained locally.
-
----
-
-# 11. Part I — Investigate the AWS Storage Architecture
+# 10. Part H - Investigate the AWS storage architecture
 
 You have learned about:
 
@@ -326,25 +282,25 @@ In your README, explain:
 
 ### Amazon EBS
 
-What problem does EBS solve?
+- What problem does EBS solve?
 
-Where is EBS attached?
+- Where is EBS attached?
 
-What happens to files stored on the development environment's attached storage?
+- What happens to files stored on the development environment's attached storage?
 
 ### Amazon S3
 
-What problem does S3 solve?
+- What problem does S3 solve?
 
-Why is S3 suitable for datasets and model artifacts?
+- Why is S3 suitable for datasets and model artifacts?
 
-Why might S3 be preferred as a central storage layer for an ML project?
+- Why might S3 be preferred as a central storage layer for an ML project?
 
 Do not simply define the services. Relate your explanation to SIRA.
 
 ---
 
-# 12. Part J — IAM and Security
+# 11. Part I - IAM and Security
 
 Review the IAM configuration used for your development environment.
 
@@ -361,7 +317,7 @@ Your explanation should demonstrate understanding rather than copied definitions
 
 ---
 
-# 13. Part K — Cloud Architecture Diagram
+### 12. Part J - Cloud Architecture Diagram
 
 Create an architecture diagram for your SIRA application.
 
@@ -391,13 +347,11 @@ Your diagram should show at least:
                        Model
 ```
 
-Your architecture does not have to look exactly like this.
-
-You are expected to design an architecture that makes sense for your implementation.
+Your architecture does not have to look exactly like this. You are expected to design an architecture that makes sense for your implementation.
 
 ---
 
-# 14. Part L — Compare Local vs Cloud Development
+### 13. Part K - Compare Local vs Cloud Development
 
 Create a section in your README called:
 
@@ -422,7 +376,7 @@ Explain your answers specifically in the context of SIRA.
 
 ---
 
-# 15. Part M — Cost Awareness
+### 14. Part L - Cost Awareness
 
 Before creating AWS resources, consider:
 
@@ -438,41 +392,7 @@ Document the resources you created and explain how you would prevent unnecessary
 
 ---
 
-# 16. Challenge Task ⭐
-
-For students who want an additional challenge:
-
-Modify your SIRA application so that the following workflow works:
-
-```text
-                    S3
-                     │
-                     ▼
-              Raw Dataset
-                     │
-                     ▼
-              DataLoader
-                     │
-                     ▼
-             Preprocessing
-                     │
-                     ▼
-             FeatureEngineer
-                     │
-                     ▼
-              ML Pipeline
-                     │
-                     ▼
-                Prediction
-```
-
-The goal is to reduce manual intervention.
-
-The application should be able to retrieve the required dataset from S3 and execute the processing pipeline from the cloud environment.
-
----
-
-# 17. Important Restrictions
+### 15. Important Restrictions
 
 You MUST:
 
@@ -495,23 +415,23 @@ You MUST NOT:
 
 ---
 
-# 18. Required Deliverables
+### 16. Required deliverables
 
 Submit the following:
 
-### 1. GitHub Repository
+* 1. GitHub Repository
 
 Your repository should contain the updated SIRA project.
 
-### 2. AWS Project
+* 2. AWS Project
 
 Your SIRA project should be successfully running in SageMaker JupyterLab.
 
-### 3. S3 Storage
+* 3. S3 Storage
 
 Your dataset should be appropriately stored in S3.
 
-### 4. Working Python Pipeline
+* 4. Working Python Pipeline
 
 Your application should demonstrate:
 
@@ -547,67 +467,57 @@ The README should document:
 - Challenges encountered
 - How you solved those challenges
 
-### 7. Screenshots
-
-Include appropriate screenshots demonstrating:
-
-- SageMaker JupyterLab
-- Project structure
-- S3 dataset
-- Successful execution
-- Model/ML results
-
-Do not include credentials or sensitive information.
+Please make it look professional.
 
 ---
 
-# 19. Reflection Questions
+### 18. Reflection questions
 
 Answer these questions in your README:
 
 ### Question 1
 
-Why did we move SIRA from a local environment to AWS?
+- Why did we move SIRA from a local environment to AWS?
 
 ### Question 2
 
-What role does S3 play in the SIRA architecture?
+- What role does S3 play in the SIRA architecture?
 
 ### Question 3
 
-What role does SageMaker JupyterLab play?
+- What role does SageMaker JupyterLab play?
 
 ### Question 4
 
-What is the difference between S3 and EBS?
+- What is the difference between S3 and EBS?
 
 ### Question 5
 
-Why do we need IAM?
+- Why do we need IAM?
 
 ### Question 6
 
-What would happen if you deleted your local dataset but the dataset was still available in S3?
+- What would happen if you deleted your local dataset but the dataset was still available in S3?
 
 ### Question 7
 
-What challenges did you encounter during migration?
+- What challenges did you encounter during migration?
 
 ### Question 8
 
-If SIRA had 1 million incident reports instead of 1,000, what aspects of the architecture would need to change?
+- If SIRA had 1 million incident reports instead of 1,000, what aspects of the architecture would need to change?
 
 ### Question 9
 
-If multiple developers were working on SIRA, what AWS services or practices could help with collaboration and security?
+- If multiple developers were working on SIRA, what AWS services or practices could help with collaboration and security?
 
 ### Question 10
 
-What part of the SIRA application would you move to a managed ML service such as SageMaker, and why?
+- What part of the SIRA application would you move to a managed ML service such as SageMaker, and why?
 
 ---
 
-# 20. Success Criteria
+### 20. Success Criteria
 
 You have successfully completed the assignment when:
 
@@ -617,8 +527,7 @@ You have successfully completed the assignment when:
 - [ ] Your dataset is stored in S3.
 - [ ] Your application can access the dataset.
 - [ ] Your preprocessing pipeline runs successfully.
-- [ ] Your feature engineering pipeline runs successfully.
-- [ ] Your ML workflow executes successfully.
+- [ ] Your feature engineering pipeline runs successfully. (optional)
 - [ ] You understand the role of IAM.
 - [ ] You understand the difference between S3 and EBS.
 - [ ] You documented your architecture.
@@ -626,9 +535,10 @@ You have successfully completed the assignment when:
 - [ ] Your GitHub repository is updated.
 - [ ] No AWS credentials are exposed.
 
+Note: It's a graded activity. 
 ---
 
-# Final Engineering Challenge
+### Final engineering challenge
 
 Do not approach this assignment as:
 
@@ -642,6 +552,6 @@ Your objective is not merely to make SIRA run on AWS.
 
 Your objective is to understand **why each AWS service is being used, how the services interact, and how the architecture could evolve into a production ML system.**
 
-Good engineering requires more than making the code run.
+Good engineering requires more than making the code run. It requires understanding the **data, infrastructure, security, scalability, cost, and deployment decisions** behind the system.
 
-It requires understanding the **data, infrastructure, security, scalability, cost, and deployment decisions** behind the system.
+## Good luck.

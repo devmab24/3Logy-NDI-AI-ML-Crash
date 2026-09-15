@@ -1,9 +1,3 @@
-For your SIRA app, I’d use a **structured prompt** based on the best-practice pattern:
-
-**Role → Context → Task → Requirements → Project Details → Output Format → Constraints**
-
-Here is a copyable prompt you can give to an AI coding assistant to generate the `README.md`:
-
 # Prompt: Generate SIRA README.md
 
 ## Role
